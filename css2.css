@@ -129,7 +129,7 @@ footer{
 }
 .P1
 {
-    border: black 8px solid;
+    border: black 4px solid;
     overflow: auto;
     margin-bottom: 2cm;
     height: 420px;
@@ -150,7 +150,7 @@ footer{
 
 .P2
 {
-    border: black 8px solid;
+    border: black 4px solid;
     overflow: auto;
     margin-bottom: 2cm;
     height: 420px;
@@ -171,7 +171,7 @@ footer{
 .P3
 {
     
-    border: black 8px solid;
+    border: black 4px solid;
     overflow: auto;
     margin-bottom: 2cm;
     height: 420px;
@@ -191,7 +191,7 @@ footer{
 }
 .P4
 {
-    border: black 8px solid;
+    border: black 4px solid;
     overflow: auto;
     margin-bottom: 2cm;
     height: 420px;
@@ -315,12 +315,13 @@ body{
     margin: 0%;
 }   
 .about{
-    font-size: 75px;
+    font-size: 50px;
 }
 .about_me{
     width: 390px;
     margin-left: 0.5cm;
-    margin-right: 4cm;
+    margin-right: 0cm;
+    padding: 0cm;
 }
 .name{
     font-size: 35px;
@@ -341,7 +342,7 @@ nav{
     display:flex;
     padding: 3px;
     margin: 0%;
-    margin-left: 145px; 
+    margin-left: 103px; 
 }
 .nav:hover{
     color: red;
@@ -483,5 +484,8 @@ div{
 }
 .mods{
     margin-left: 4cm;
+}
+.sec5{
+    width: 390cm;
 }
 }
